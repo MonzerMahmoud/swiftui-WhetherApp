@@ -19,6 +19,8 @@ struct WeatherView: View {
                     
                     Text("Today, \(Date().formatted(.dateTime.month().day().hour().minute()))")
                         .fontWeight(.light)
+                    
+                    Text("Hi")
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 
